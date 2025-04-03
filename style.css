@@ -1,0 +1,229 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(200, 204, 202);
+    color: #a0a0a0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(135deg, rgb(200, 236, 216), rgb(139, 173, 160));
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #34927b;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(178, 180, 180, 0.3);
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 10px;
+    color: #089b6a;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a i {
+    margin-right: 8px;
+}
+
+.social-links a:hover {
+    color: #00ff15;
+}
+
+h1 {
+    color: #089b6a;
+}
+
+h2 {
+    color: #14ac86; 
+    border-bottom: 2px solid #086d64;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #16ac98; 
+}
+
+/* Sections */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #173d35;
+    border-radius: 10px;
+    background: #383838;
+    box-shadow: 0 4px 8px rgba(118, 224, 171, 0.2);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #343636;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #098373;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+/* CV Download Button */
+.cv-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.cv-button:hover {
+    background-color: #0056b3;
+}
+
+.cv-button i {
+    margin-right: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #036648;
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .responsive-container-block.container {
+        width: 90%;
+        height: 90%;
+        padding: 20px;
+    }
+}
+
+.contact_us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background: #383838;
+}
+
+.responsive-container-block.container {
+    max-width: 800px;
+    width: 100%;
+    background: #363636;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(118, 224, 171, 0.2);
+}
+
+.contact-head {
+    font-size: 24px;
+    font-weight: bold;
+    color: #089b6a;
+    text-align: center;
+}
+
+.contact-subhead {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.responsive-cell-block {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #089b6a;
+    margin-bottom: 5px;
+}
+
+.input, .textinput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #089b6a;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background: #f9f9f9;
+}
+
+.textinput {
+    height: 120px;
+    resize: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #14ac86;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background: #089b6a;
+}
